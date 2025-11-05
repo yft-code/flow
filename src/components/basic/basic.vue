@@ -9,7 +9,7 @@
                           {{item.label}}----{{ index }}  --- {{ index === item.children&&item.children.length -1 }} 长度
                       </div>
                     </div>
-                  <div v-if="item.children">---------------</div>
+                  <div v-if="item.children">------------------</div>
                   <div>
                     <div v-if="item.children">
                         <flow-pic :flowData="item.children"></flow-pic>
