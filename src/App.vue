@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    回复
+    回
     <router-view/>
   </div>
 </template>
