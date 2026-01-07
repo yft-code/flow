@@ -160,15 +160,16 @@ export default {
         }],
     }
   },
-  methods:{
-    expend(item){
-       if(!item.expand){
-          this.$set(item,'expand',true)
-    } else {
-        item.expand = false
+    methods:{
+        expend(item){
+            console.log('item', item);
+            if(!item.expand){
+                this.$set(item,'expand',true)
+            } else {
+                item.expand = false
+            }
+        }
     }
-  }
-}
 }
 </script>
 <style scoped>
