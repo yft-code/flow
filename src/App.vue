@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    回复嘎嘎嘎嘎嘎嘎嘎等哈三个的是法国
+    回复
     <router-view/>
   </div>
 </template>
