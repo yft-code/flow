@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
-   
-    <router-view/>
-  </div>
+    <div id="app">
+      测试提交
+      <router-view/>
+    </div>
 </template>
 
 <style lang="scss">
