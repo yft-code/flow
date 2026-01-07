@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-   测试11   7777嗡嗡嗡
+    回复嘎嘎嘎嘎嘎嘎嘎等哈三个的是法国
     <router-view/>
   </div>
 </template>
