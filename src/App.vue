@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-   
+   测试11
     <router-view/>
   </div>
 </template>
