@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-   测试11   7777嗡嗡嗡
+    第dan次
     <router-view/>
   </div>
 </template>
