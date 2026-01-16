@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    回
+    第一次提交
     <router-view/>
   </div>
 </template>

@@ -10,6 +10,8 @@
    <flow-basic v-if="value==='0'"></flow-basic>
    <!-- 带有折叠功能 -->
    <expand v-if="value==='1'"></expand>
+   <!-- 拖动滑块demo -->
+   
   </div>
 </template>
 
