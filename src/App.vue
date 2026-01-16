@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    第dan次
+    第5次
     <router-view/>
   </div>
 </template>
