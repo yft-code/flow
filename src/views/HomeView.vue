@@ -10,6 +10,8 @@
    <flow-basic v-if="value==='0'"></flow-basic>
    <!-- 带有折叠功能 -->
    <expand v-if="value==='1'"></expand>
+   <!-- 拖动滑块demo -->
+   
   </div>
 </template>
 
@@ -23,106 +25,107 @@ export default {
     flowBasic,
     expand
   },
-  mounted(){
-  },
-  data () {
-    
-    return {
-          value:'',
-          data: [{
-          label: '一级 2',
-          children: [{
-            label: '二级 2-1',
+    mounted(){
+        console.log('提交哈哈哈换行11111');
+    },
+    data () {
+        
+        return {
+            value:'',
+            data: [{
+            label: '一级 2',
             children: [{
-              label: '三级 2-1-1'
-          },
-          {
-              label: '三级 2-1-1'
-          }]
-          }, {
-            label: '二级 2-2',
-            children: [{
-              label: '三级 2-2-1',
-               children: [{
-              label: '三级 2-2-1',
-                   children: [{
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
-            }]
-            },
-            {
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
-            }]
-            },
-            {
-              label: '三级 2-2-1',
+                label: '二级 2-1',
                 children: [{
-              label: '三级 2-2-1'
+                label: '三级 2-1-1'
             },
             {
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
+                label: '三级 2-1-1'
             }]
-            },
-            {
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
-            },
-            {
-              label: '三级 2-2-1'
+            }, {
+                label: '二级 2-2',
+                children: [{
+                label: '三级 2-2-1',
+                children: [{
+                label: '三级 2-2-1',
+                    children: [{
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                }]
+                },
+                {
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                }]
+                },
+                {
+                label: '三级 2-2-1',
+                    children: [{
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                }]
+                },
+                {
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                },
+                {
+                label: '三级 2-2-1'
+                }]
             }]
-          }]
-        }, {
-          label: '一级 3',
-          children: [{
-            label: '二级 3-1',
+            }, {
+            label: '一级 3',
             children: [{
-              label: '三级 3-1-1'
+                label: '二级 3-1',
+                children: [{
+                label: '三级 3-1-1'
+                }]
+            }, {
+                label: '二级 3-2',
+                children: [{
+                label: '三级 3-2-1'
+                }]
             }]
-          }, {
-            label: '二级 3-2',
-            children: [{
-              label: '三级 3-2-1'
-            }]
-          }]
-        }],
+            }],
+        }
+    },
+    methods:{
+        change(val){
+            console.log('value',val,this.value);
+        }
     }
-  },
-  methods:{
-    change(val){
-          console.log('value',val,this.value);
-    }
-  }
 }
 </script>
 <style scoped>
