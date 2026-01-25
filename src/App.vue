@@ -2,6 +2,9 @@
   <div id="app">
     第5次
     <router-view/>
+    <div>
+       12点09
+    </div>
   </div>
 </template>
 
