@@ -9,6 +9,8 @@ Vue.config.productionTip = false
 console.log('ddddd');
 console.log('dddd');
 console.log('最后一次提交');
+console.log('sss')
+console.log('xxxx')
 new Vue({
   router,
   store,
