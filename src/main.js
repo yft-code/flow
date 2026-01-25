@@ -8,7 +8,7 @@ Vue.use(ElementUI);
 Vue.config.productionTip = false
 console.log('ddddd');
 console.log('最后一次提交');
-
+console.log('dddd')
 new Vue({
   router,
   store,
