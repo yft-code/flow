@@ -38,6 +38,9 @@ export default {
    methods:{
     expend(item){
        if(!item.expand){
+
+
+        
           this.$set(item,'expand',true)
     } else {
         item.expand = false

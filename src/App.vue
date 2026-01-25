@@ -2,6 +2,15 @@
   <div id="app">
     第4次
     <router-view/>
+    <div>
+       12点09
+    </div>
+     <div>
+       12点10
+    </div>
+    <div>
+       12点11
+    </div>
   </div>
 </template>
 
