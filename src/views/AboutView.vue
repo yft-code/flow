@@ -31,10 +31,7 @@
       git ssss
     </div>
      <div>
-      git ssss  修改一次功能三顶顶抵挡
-    </div>
-    <div>
-      第二次修改的记录
+      git ssss  再修改一次功能三顶顶抵挡
     </div>
   </div>
 </template>
