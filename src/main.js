@@ -6,7 +6,7 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI);
 Vue.config.productionTip = false
-console.log('ddddd');
+console.log('ddddd33');
 new Vue({
   router,
   store,
